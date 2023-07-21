@@ -3,16 +3,16 @@
 
 @font-face {
     font-family: 'OmoriFont';
-    src: url('https://basil.florist/fonts/OmoriFont.ttf');
+    src: url('/fonts/OmoriFont.ttf');
 }
 
 @font-face {
     font-family: 'OmoriFont2';
-    src: url('https://basil.florist/fonts/OmoriFont2.ttf');
+    src: url('/fonts/OmoriFont2.ttf');
 }
 
 body {
-    background-color: #51e697;
+    background-image: url('/img/wall_06.gif');
 }
 
 .content {
