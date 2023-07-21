@@ -1,0 +1,153 @@
+@import '_gradients.scss';
+@import '_tooltips.scss';
+
+@font-face {
+    font-family: 'OmoriFont';
+    src: url('https://basil.florist/fonts/OmoriFont.ttf');
+}
+
+@font-face {
+    font-family: 'OmoriFont2';
+    src: url('https://basil.florist/fonts/OmoriFont2.ttf');
+}
+
+body {
+    background-color: #51e697;
+}
+
+.content {
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+    justify-content: center;
+}
+
+.title {
+    padding-right: 2vh;
+    font-size: 4vh
+}
+
+.titleBox {
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5vh;
+}
+
+.titleBox:hover {
+    color: #ff74de;
+}
+
+.sideMenu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 28vh;
+    border-radius: 0.4vh;
+    background-color: #e3e281;
+}
+
+.siderMenu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 86vh;
+    width: 28vh;
+    border-radius: 0.4vh;
+    background-color: #e3e281;
+}
+
+.mainPanel {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 86vh;
+    width: 92vh;
+    border-radius: 0.4vh;
+    background-color: #e3e281;
+}
+
+.aboutPanel {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 86vh;
+    width: 122vh;
+    border-radius: 0.4vh;
+    background-color: #e3e281;    
+}
+
+.text {
+    display: flex;
+    text-align: center;
+    padding: 1vh;
+    font-size: 3vh;
+    font-weight: bold;
+    font-family: 'OmoriFont'
+}
+
+.textHi {
+    display: flex;
+    text-align: center;
+    padding: 1vh;
+    font-size: 5vh;
+    font-weight: bold;
+    font-family: 'OmoriFont'
+}
+
+.icon {
+    border-radius: 0.4vh;
+    width: 5vh;
+    height: 5vh;
+}
+
+.navText {
+    display: flex; 
+    border-radius: 0.4vh;
+    width: 100%;
+    padding: 1vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'OmoriFont';
+    font-size: 2vh;
+    font-weight: bolder;
+}
+
+.navTitle {
+    display: flex; 
+    border-radius: 0.4vh;
+    width: 100%;
+    padding: 0.2vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'OmoriFont';
+    font-size: 5vh;
+    font-weight: bolder;
+}
+
+.navElement {
+    display: flex;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 0.15vh 0.15vh 0.15vh #000000;
+    width: 100%;
+    text-decoration: none;
+    padding: 1vh;
+    transition: all 0.3s;
+    justify-content: center;
+    align-items: center;
+}
+
+.navElement:hover {
+    transition: all 0.3s;
+    color: white;
+    filter: brightness(0.8);
+}
