@@ -1,0 +1,165 @@
+@font-face {
+  font-family: "CyberpunkWaifus";
+  src: url("/fonts/CyberpunkWaifus.ttf");
+}
+@font-face {
+  font-family: "Pixellari";
+  src: url("/fonts/Pixellari.ttf");
+}
+body {
+  background-color: #240b1c;
+}
+
+.content {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  padding-top: 1vh;
+  gap: 1vh;
+}
+
+.titlePanel {
+  height: 6vh;
+  width: auto;
+  display: flex;
+  padding: 1vh;
+  border-style: double;
+  border-width: 0.3vh;
+  border-color: #ec7bb4;
+  border-radius: 0.5vh;
+  background-color: #3d1931;
+  box-shadow: 0 0 10px #ff80ff;
+}
+
+.titleText {
+  font-size: 7vh;
+  font-family: "Pixellari";
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0 0 10px #ff80ff;
+  text-decoration: none;
+}
+
+.titleText:hover {
+  text-shadow: 0 0 20px #ff80ff;
+}
+
+.mainContent {
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: baseline;
+  gap: 1vh;
+  padding-top: 1vh;
+  position: fixed;
+}
+
+.mainPanel {
+  height: auto;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  padding: 1vh;
+  border-style: double;
+  border-width: 0.3vh;
+  border-color: #ec7bb4;
+  background-color: #3d1931;
+}
+
+.sideContent {
+  height: 80%;
+  width: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1vh;
+  z-index: 3;
+  border-style: double;
+  border-width: 0.3vh;
+  border-color: #5a8f5a;
+  background-color: #e3e281;
+}
+
+.sideText {
+  font-size: 3vh;
+  font-family: "CyberpunkWaifus";
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.headerText {
+  font-size: 4vh;
+  font-weight: bold;
+  font-family: "CyberpunkWaifus";
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+  padding-bottom: 1vh;
+}
+
+.textText {
+  font-size: 3vh;
+  font-family: "CyberpunkWaifus";
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.specialsideText {
+  font-size: 3vh;
+  font-family: "CyberpunkWaifus";
+  text-align: center;
+  cursor: default;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.specialsideText .base {
+  display: none;
+}
+
+.specialsideText:hover .based {
+  display: none;
+}
+
+.specialsideText:hover .base {
+  display: inline;
+}
+
+.heresideText {
+  font-size: 3vh;
+  font-family: "CyberpunkWaifus";
+  font-weight: bold;
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+  text-shadow: 0 0 10px #5a8f5a;
+}
+
+.gangnamstyledevText {
+  font-size: 4vh;
+  font-family: "Pixellari";
+  font-weight: bold;
+  padding-bottom: 1vh;
+  text-decoration: none;
+  color: #ff80ff;
+}
+
+.familyguyhouseText {
+  font-size: 4vh;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  padding-bottom: 1vh;
+  text-decoration: none;
+  color: cyan;
+}/*# sourceMappingURL=stylesfriends.css.map */
