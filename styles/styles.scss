@@ -15,6 +15,11 @@
 
 body {
     background-image: url('/img/wall_06.gif');
+    background-size: 15vh;
+}
+
+a {
+    color: #5a8f5a;
 }
 
 .content {
@@ -51,10 +56,10 @@ body {
     display: flex;
     flex-direction: column;
     padding: 1vh;
-    border-style: double;
+    border-style: solid;
     border-width: 0.3vh;
-    border-color: #ec7bb4;
-    background-color: #3d1931;
+    border-color: #ffffff;
+    background-color: #000000;
 }
 
 .headerText {
