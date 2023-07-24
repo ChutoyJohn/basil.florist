@@ -37,12 +37,12 @@ a {
   left: 0;
   height: 100vh;
   width: 100%;
-  padding-top: 1vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: baseline;
   gap: 1vh;
+  padding-top: 1vh;
   position: fixed;
 }
 
