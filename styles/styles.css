@@ -71,6 +71,7 @@ a {
   font-size: 3vh;
   font-family: "CyberpunkWaifus";
   text-align: left;
+  line-height: normal;
   color: #ffffff;
   text-decoration: none;
 }

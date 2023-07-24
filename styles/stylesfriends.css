@@ -111,15 +111,16 @@ body {
   font-weight: bold;
   font-family: "CyberpunkWaifus";
   text-align: left;
+  line-height: normal;
   color: #ffffff;
   text-decoration: none;
-  padding-bottom: 1vh;
 }
 
 .textText {
   font-size: 3vh;
   font-family: "CyberpunkWaifus";
   text-align: left;
+  line-height: normal;
   color: #ffffff;
   text-decoration: none;
 }
