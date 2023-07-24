@@ -23,16 +23,16 @@ body {
   left: 0;
   height: 100%;
   width: 100%;
-  margin: 0.5vh;
   display: flex;
   align-items: center;
   justify-content: baseline;
   padding-top: 1vh;
+  line-height: normal;
   gap: 1vh;
 }
 
 .titlePanel {
-  height: 6vh;
+  height: 8.5vh;
   width: auto;
   display: flex;
   padding: 1vh;
@@ -85,12 +85,13 @@ body {
 
 .sideContent {
   height: 80%;
-  width: 10vh;
+  width: 12vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: 1vh;
   padding: 1vh;
-  z-index: 3;
+  z-index: 1;
   border-style: double;
   border-width: 0.3vh;
   border-color: #5a8f5a;
