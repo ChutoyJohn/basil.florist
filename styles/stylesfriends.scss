@@ -8,6 +8,16 @@
     src: url('/fonts/Pixellari.ttf');
 }
 
+@font-face {
+    font-family: 'ShowcardGothic';
+    src: url('/fonts/ShowcardGothic.ttf');
+}
+
+@font-face {
+    font-family: 'FuturaBT';
+    src: url('/fonts/FuturaBT.otf');
+}
+
 body {
     background-color: #240b1c;
 }
@@ -164,4 +174,21 @@ body {
     padding-bottom: 1vh;
     text-decoration: none;
     color: cyan;
+}
+
+.jonstudevText {
+    font-size: 4vh;
+    font-family: 'ShowcardGothic';
+    padding-bottom: 1vh;
+    text-decoration: none;
+    color: #9aa0a6;
+}
+
+.boykisserText {
+    font-size: 4vh;
+    font-family: 'FuturaBT';
+    font-weight: bold;
+    padding-bottom: 1vh;
+    text-decoration: none;
+    color: #ffffff;
 }
