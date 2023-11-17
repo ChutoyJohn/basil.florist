@@ -10,6 +10,60 @@
   font-family: "CyberpunkWaifus";
   src: url("/fonts/CyberpunkWaifus.ttf");
 }
+.sideContent {
+  height: 80%;
+  width: 12vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 1vh;
+  padding: 1vh;
+  z-index: 3;
+  border-style: double;
+  border-width: 0.3vh;
+  border-color: #5a8f5a;
+  background-color: #e3e281;
+}
+
+.sideText {
+  font-size: 3vh;
+  font-family: "CyberpunkWaifus";
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.specialsideText {
+  font-size: 3vh;
+  font-family: "CyberpunkWaifus";
+  text-align: center;
+  cursor: default;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.specialsideText .base {
+  display: none;
+}
+
+.specialsideText:hover .based {
+  display: none;
+}
+
+.specialsideText:hover .base {
+  display: inline;
+}
+
+.heresideText {
+  font-size: 3vh;
+  font-family: "CyberpunkWaifus";
+  font-weight: bold;
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+  text-shadow: 0 0 10px #5a8f5a;
+}
+
 body {
   background-image: url("/img/wall_06.gif");
   background-size: 15vh;
@@ -74,60 +128,6 @@ a {
   line-height: normal;
   color: #ffffff;
   text-decoration: none;
-}
-
-.sideContent {
-  height: 80%;
-  width: 12vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-left: 1vh;
-  padding: 1vh;
-  z-index: 3;
-  border-style: double;
-  border-width: 0.3vh;
-  border-color: #5a8f5a;
-  background-color: #e3e281;
-}
-
-.sideText {
-  font-size: 3vh;
-  font-family: "CyberpunkWaifus";
-  text-align: left;
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.specialsideText {
-  font-size: 3vh;
-  font-family: "CyberpunkWaifus";
-  text-align: center;
-  cursor: default;
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.specialsideText .base {
-  display: none;
-}
-
-.specialsideText:hover .based {
-  display: none;
-}
-
-.specialsideText:hover .base {
-  display: inline;
-}
-
-.heresideText {
-  font-size: 3vh;
-  font-family: "CyberpunkWaifus";
-  font-weight: bold;
-  text-align: left;
-  color: #ffffff;
-  text-decoration: none;
-  text-shadow: 0 0 10px #5a8f5a;
 }
 
 .titlePanel {

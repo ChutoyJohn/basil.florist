@@ -14,6 +14,60 @@
   font-family: "FuturaBT";
   src: url("/fonts/FuturaBT.otf");
 }
+.sideContent {
+  height: 80%;
+  width: 12vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 1vh;
+  padding: 1vh;
+  z-index: 3;
+  border-style: double;
+  border-width: 0.3vh;
+  border-color: #5a8f5a;
+  background-color: #e3e281;
+}
+
+.sideText {
+  font-size: 3vh;
+  font-family: "CyberpunkWaifus";
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.specialsideText {
+  font-size: 3vh;
+  font-family: "CyberpunkWaifus";
+  text-align: center;
+  cursor: default;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.specialsideText .base {
+  display: none;
+}
+
+.specialsideText:hover .based {
+  display: none;
+}
+
+.specialsideText:hover .base {
+  display: inline;
+}
+
+.heresideText {
+  font-size: 3vh;
+  font-family: "CyberpunkWaifus";
+  font-weight: bold;
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+  text-shadow: 0 0 10px #5a8f5a;
+}
+
 body {
   background-color: #240b1c;
 }
@@ -83,29 +137,6 @@ body {
   background-color: #3d1931;
 }
 
-.sideContent {
-  height: 80%;
-  width: 12vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-left: 1vh;
-  padding: 1vh;
-  z-index: 1;
-  border-style: double;
-  border-width: 0.3vh;
-  border-color: #5a8f5a;
-  background-color: #e3e281;
-}
-
-.sideText {
-  font-size: 3vh;
-  font-family: "CyberpunkWaifus";
-  text-align: left;
-  color: #ffffff;
-  text-decoration: none;
-}
-
 .headerText {
   font-size: 4vh;
   font-weight: bold;
@@ -123,37 +154,6 @@ body {
   line-height: normal;
   color: #ffffff;
   text-decoration: none;
-}
-
-.specialsideText {
-  font-size: 3vh;
-  font-family: "CyberpunkWaifus";
-  text-align: center;
-  cursor: default;
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.specialsideText .base {
-  display: none;
-}
-
-.specialsideText:hover .based {
-  display: none;
-}
-
-.specialsideText:hover .base {
-  display: inline;
-}
-
-.heresideText {
-  font-size: 3vh;
-  font-family: "CyberpunkWaifus";
-  font-weight: bold;
-  text-align: left;
-  color: #ffffff;
-  text-decoration: none;
-  text-shadow: 0 0 10px #5a8f5a;
 }
 
 .gangnamstyledevText {
