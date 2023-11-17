@@ -1,0 +1,211 @@
+@font-face {
+  font-family: "CyberpunkWaifus";
+  src: url("/fonts/CyberpunkWaifus.ttf");
+}
+@font-face {
+  font-family: "rzpix";
+  src: url("/fonts/rzpix.ttf");
+}
+@font-face {
+  font-family: "Bombardier";
+  src: url("/fonts/Bombardier.ttf");
+}
+.sideContent {
+  height: 80%;
+  width: 12vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 1vh;
+  padding: 1vh;
+  z-index: 3;
+  border-style: double;
+  border-width: 0.3vh;
+  border-color: #5a8f5a;
+  background-color: #e3e281;
+}
+
+.sideText {
+  font-size: 3vh;
+  font-family: "CyberpunkWaifus";
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.specialsideText {
+  font-size: 3vh;
+  font-family: "CyberpunkWaifus";
+  text-align: center;
+  cursor: default;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.specialsideText .base {
+  display: none;
+}
+
+.specialsideText:hover .based {
+  display: none;
+}
+
+.specialsideText:hover .base {
+  display: inline;
+}
+
+.heresideText {
+  font-size: 3vh;
+  font-family: "CyberpunkWaifus";
+  font-weight: bold;
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+  text-shadow: 0 0 10px #5a8f5a;
+}
+
+body {
+  background-color: #201f2d;
+}
+
+.bg-image {
+  background-image: url("../img/bTitlescreen_0.png");
+  background-size: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  image-rendering: optimizeSpeed; /* STOP SMOOTHING, GIVE ME SPEED  */ /* Firefox                        */
+  image-rendering: -o-crisp-edges; /* Opera                          */ /* Chrome (and eventually Safari) */
+  image-rendering: pixelated; /* Universal support since 2021   */
+  image-rendering: optimize-contrast; /* CSS3 Proposed                  */
+  -ms-interpolation-mode: nearest-neighbor; /* IE8+                           */
+}
+
+.titlePanel {
+  height: 8vh;
+  width: auto;
+  display: flex;
+  padding-left: 1vh;
+  padding-right: 1vh;
+  border-style: solid;
+  border-width: 0.3vh;
+  border-color: #424757;
+  border-radius: 0.5vh;
+  background-color: #31384b;
+  box-shadow: 0 0 #18191d;
+}
+
+.titleText {
+  font-size: 7vh;
+  font-family: "Bombardier";
+  text-align: center;
+  color: #969697;
+  text-shadow: 3px 0 #635a70;
+  text-decoration: none;
+}
+
+.titleText:hover {
+  color: #e2d8d4;
+  text-shadow: 3px 0 #b6a8b1;
+}
+
+.titlePanel:hover {
+  border-color: #8df6e8;
+  background-color: #516270;
+}
+
+.content {
+  top: 0;
+  left: 0;
+  z-index: 999;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  padding-top: 1vh;
+  line-height: normal;
+  gap: 1vh;
+}
+
+.mainContent {
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: baseline;
+  gap: 1vh;
+  padding-top: 1vh;
+  position: fixed;
+}
+
+.mainPanel {
+  height: auto;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  padding: 1vh;
+  border-style: solid;
+  border-width: 0.7vh;
+  border-color: #415465;
+  border-radius: 0.5vh;
+  background-color: rgba(55, 67, 91, 0.8);
+}
+
+.serverPanel {
+  height: auto;
+  width: 58%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5vh;
+  padding-left: 1vh;
+  padding-right: 1vh;
+  border-style: solid;
+  border-width: 0.7vh;
+  border-color: #415465;
+  border-radius: 0.5vh;
+  background-color: rgba(55, 67, 91, 0.8);
+}
+
+.headerText {
+  font-size: 4vh;
+  font-weight: bold;
+  font-family: "rzpix";
+  text-align: left;
+  line-height: normal;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.textText {
+  font-size: 3vh;
+  font-family: "rzpix";
+  text-align: left;
+  line-height: normal;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.serverText {
+  font-size: 2.5vh;
+  font-family: "rzpix";
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.connectText {
+  font-size: 2vh;
+  font-family: "rzpix";
+  text-align: right;
+  color: #ffffff;
+  text-decoration: none;
+}/*# sourceMappingURL=stylesservers.css.map */
