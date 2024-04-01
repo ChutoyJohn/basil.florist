@@ -112,6 +112,7 @@ body {
     font-size: 4vh;
     font-family: 'Pixellari';
     font-weight: bold;
+    line-height: normal;
     padding-top: 2vh;
     padding-bottom: 2vh;
     text-decoration: none;
@@ -130,8 +131,9 @@ body {
 .jonstudevText {
     font-size: 4vh;
     font-family: 'ShowcardGothic';
+    line-height: normal;
     padding-top: 0vh;
-    padding-bottom: 2vh;
+    padding-bottom: 0.5vh;
     text-decoration: none;
     color: #9aa0a6;
 }
