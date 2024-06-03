@@ -1,0 +1,76 @@
+.sideContent {
+    height: 80%;
+    width: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 6rem;
+    margin-top: 1rem;
+    z-index: 3;
+    gap: 1rem;
+}
+
+.sideBox {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    font-size: var(--list-body-font-size);
+    line-height: 1;
+    border-image-source: url(https://riskofrainreturns.wiki.gg/images/f/f0/Sidebar-box.png);
+    border-image-slice: fill 14 24 14 36;
+    border-image-width: 7px 12px 7px 18px;
+    border-image-repeat: stretch round;
+    border-image-outset: 0 0 0 6px;
+    position: relative;
+    width: 17.8rem;
+    height: 4rem;
+    text-decoration: none;
+    cursor: default;
+}
+
+.sideBox:hover::after {
+    content: "";
+    display: block;
+    pointer-events: none;
+    border: 1px solid #91f4eb;
+    position: absolute;
+    inset: 3px 8px 4px 7px;
+}
+
+.sideBox .base:hover {
+    content: "WIP";
+}
+
+.sideBox .base {
+    display: none;
+}
+
+.sideBox:hover .based {
+    display: none;
+}
+
+.sideBox:hover .base {
+    display: inline;
+}
+
+.sideText {
+    padding-top: 0.1rem;
+    padding-left: 1.5rem;
+    font-size: 2.9rem;
+    font-family: 'RiskofRainSquare';
+    text-align: left;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.heresideText {
+    padding-top: 0.1rem;
+    padding-left: 1.5rem;
+    font-size: 2.9rem;
+    font-family: 'RiskofRainSquare';
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 0 0 10px #5a8f5a;
+}
