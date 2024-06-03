@@ -10,53 +10,80 @@
   font-family: "Bombardier";
   src: url("/fonts/Bombardier.ttf");
 }
+@font-face {
+  font-family: "RiskofRainSquare";
+  src: url("/fonts/RiskofRainSquare.ttf");
+}
 .sideContent {
   height: 80%;
-  width: 12vh;
+  width: 8rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: 1vh;
-  padding: 1vh;
+  margin-left: 6rem;
+  margin-top: 1rem;
   z-index: 3;
-  border-style: double;
-  border-width: 0.3vh;
-  border-color: #5a8f5a;
-  background-color: #e3e281;
+  gap: 1rem;
+}
+
+.sideBox {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  font-size: var(--list-body-font-size);
+  line-height: 1;
+  border-image-source: url(https://riskofrainreturns.wiki.gg/images/f/f0/Sidebar-box.png);
+  border-image-slice: fill 14 24 14 36;
+  border-image-width: 7px 12px 7px 18px;
+  border-image-repeat: stretch round;
+  border-image-outset: 0 0 0 6px;
+  position: relative;
+  width: 17.8rem;
+  height: 4rem;
+  text-decoration: none;
+  cursor: default;
+}
+
+.sideBox:hover::after {
+  content: "";
+  display: block;
+  pointer-events: none;
+  border: 1px solid #91f4eb;
+  position: absolute;
+  inset: 3px 8px 4px 7px;
+}
+
+.sideBox .base:hover {
+  content: "WIP";
+}
+
+.sideBox .base {
+  display: none;
+}
+
+.sideBox:hover .based {
+  display: none;
+}
+
+.sideBox:hover .base {
+  display: inline;
 }
 
 .sideText {
-  font-size: 3vh;
-  font-family: "CyberpunkWaifus";
+  padding-top: 0.1rem;
+  padding-left: 1.5rem;
+  font-size: 2.9rem;
+  font-family: "RiskofRainSquare";
   text-align: left;
   color: #ffffff;
   text-decoration: none;
 }
 
-.specialsideText {
-  font-size: 3vh;
-  font-family: "CyberpunkWaifus";
-  text-align: center;
-  cursor: default;
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.specialsideText .base {
-  display: none;
-}
-
-.specialsideText:hover .based {
-  display: none;
-}
-
-.specialsideText:hover .base {
-  display: inline;
-}
-
 .heresideText {
-  font-size: 3vh;
-  font-family: "CyberpunkWaifus";
+  padding-top: 0.1rem;
+  padding-left: 1.5rem;
+  font-size: 2.9rem;
+  font-family: "RiskofRainSquare";
   font-weight: bold;
   text-align: left;
   color: #ffffff;
@@ -85,22 +112,22 @@ body {
 }
 
 .titlePanel {
-  height: 8vh;
+  height: 7rem;
   width: auto;
   display: flex;
   align-items: center;
-  padding-left: 1vh;
-  padding-right: 1vh;
+  padding-left: 1rem;
+  padding-right: 1rem;
   border-style: solid;
-  border-width: 0.3vh;
+  border-width: 0.3rem;
   border-color: #424757;
-  border-radius: 0.5vh;
+  border-radius: 0.5rem;
   background-color: #31384b;
   box-shadow: 0 0 #18191d;
 }
 
 .titleText {
-  font-size: 7vh;
+  font-size: 6rem;
   font-family: "Bombardier";
   text-align: center;
   color: #969697;
@@ -127,22 +154,22 @@ body {
   display: flex;
   align-items: center;
   justify-content: baseline;
-  padding-top: 1vh;
+  padding-top: 1rem;
   line-height: normal;
-  gap: 1vh;
+  gap: 1rem;
 }
 
 .mainContent {
   top: 0;
   left: 0;
-  height: 100vh;
+  height: 100rem;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: baseline;
-  gap: 1vh;
-  padding-top: 1vh;
+  gap: 1rem;
+  padding-top: 1rem;
   position: fixed;
 }
 
@@ -151,11 +178,11 @@ body {
   width: 65%;
   display: flex;
   flex-direction: column;
-  padding: 1vh;
+  padding: 1rem;
   border-style: solid;
-  border-width: 0.7vh;
+  border-width: 0.7rem;
   border-color: #415465;
-  border-radius: 0.5vh;
+  border-radius: 0.5rem;
   background-color: rgba(55, 67, 91, 0.8);
 }
 
@@ -166,13 +193,13 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5vh;
-  padding-left: 1vh;
-  padding-right: 1vh;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   border-style: solid;
-  border-width: 0.7vh;
+  border-width: 0.7rem;
   border-color: #415465;
-  border-radius: 0.5vh;
+  border-radius: 0.5rem;
   background-color: rgba(55, 67, 91, 0.8);
 }
 
