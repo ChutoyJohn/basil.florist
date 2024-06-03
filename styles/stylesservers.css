@@ -96,7 +96,6 @@ body {
 }
 
 .bg-image {
-  background-image: url("../img/bTitlescreen_0.png");
   background-size: cover;
   background-repeat: repeat;
   position: fixed;
@@ -114,7 +113,6 @@ body {
 }
 
 .bg-image-2 {
-  background-image: url("../img/bTitlescreen_0.png");
   background-size: cover;
   background-repeat: repeat;
   position: fixed;
