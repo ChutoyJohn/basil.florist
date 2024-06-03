@@ -32,7 +32,7 @@
   align-items: baseline;
   font-size: var(--list-body-font-size);
   line-height: 1;
-  border-image-source: url(https://riskofrainreturns.wiki.gg/images/f/f0/Sidebar-box.png);
+  border-image-source: url(../img/sidebar.png);
   border-image-slice: fill 14 24 14 36;
   border-image-width: 7px 12px 7px 18px;
   border-image-repeat: stretch round;
@@ -98,6 +98,7 @@ body {
 .bg-image {
   background-image: url("../img/bTitlescreen_0.png");
   background-size: cover;
+  background-repeat: repeat;
   position: fixed;
   left: 0;
   right: 0;
@@ -109,8 +110,35 @@ body {
   image-rendering: pixelated; /* Universal support since 2021   */
   image-rendering: optimize-contrast; /* CSS3 Proposed                  */
   -ms-interpolation-mode: nearest-neighbor; /* IE8+                           */
+  animation: bannermove 60s linear infinite;
 }
 
+.bg-image-2 {
+  background-image: url("../img/bTitlescreen_0.png");
+  background-size: cover;
+  background-repeat: repeat;
+  position: fixed;
+  left: 100%;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  image-rendering: optimizeSpeed; /* STOP SMOOTHING, GIVE ME SPEED  */ /* Firefox                        */
+  image-rendering: -o-crisp-edges; /* Opera                          */ /* Chrome (and eventually Safari) */
+  image-rendering: pixelated; /* Universal support since 2021   */
+  image-rendering: optimize-contrast; /* CSS3 Proposed                  */
+  -ms-interpolation-mode: nearest-neighbor; /* IE8+                           */
+  animation: bannermove 60s linear infinite;
+}
+
+@keyframes bannermove {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
 .titlePanel {
   height: 7rem;
   width: auto;
@@ -180,7 +208,7 @@ body {
   flex-direction: column;
   padding: 1rem;
   border-style: solid;
-  border-width: 0.7rem;
+  border-width: 0.3rem;
   border-color: #415465;
   border-radius: 0.5rem;
   background-color: rgba(55, 67, 91, 0.8);
@@ -197,7 +225,7 @@ body {
   padding-left: 1rem;
   padding-right: 1rem;
   border-style: solid;
-  border-width: 0.7rem;
+  border-width: 0.3rem;
   border-color: #415465;
   border-radius: 0.5rem;
   background-color: rgba(55, 67, 91, 0.8);
