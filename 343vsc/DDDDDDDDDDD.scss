@@ -1,0 +1,44 @@
+.content {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    margin-top: 3em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: baseline;
+}
+
+body {
+    background-color: black;
+}
+
+pre {
+    display: inline;
+    line-height: 0.55em;
+    margin: 0;
+    font-size: 1em;
+    color: white;
+    overflow: hidden;
+}
+
+h4 {
+    color: white;
+    font-family: Consolas,monospace;
+    font-size: 1em;
+}
+
+h5 {
+    color: white;
+    font-family: Consolas,monospace;
+    font-size: 0.9em;
+    line-height: 0.35em;
+}
+
+h6 {
+    color: black;
+    font-family: Consolas,monospace;
+    font-size: 1em;
+    line-height: 0.6em;
+}
