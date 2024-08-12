@@ -15,18 +15,27 @@ body {
   background-size: 15vh;
 }
 
-h6 {
-  padding: 0;
-}
-
 a {
   text-decoration: none;
+}
+
+.omori1 {
+  font-family: OmoriFont;
+  font-size: 1.8rem;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  line-height: 2rem;
 }
 
 .cyberpunk {
   font-family: CyberpunkWaifus;
   padding-left: 0.2rem;
-  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.sidecyberpunk {
+  font-family: CyberpunkWaifus;
+  padding-left: 0.2rem;
   padding-right: 0.5rem;
 }
 
@@ -49,13 +58,16 @@ a {
 }
 
 .titlecontainer {
-  padding-right: 50rem;
+  padding-right: 44.25rem;
+  padding-bottom: 2px;
 }
 
 .titlewrapper {
   border-color: black;
   border-style: solid;
   border-width: 1px;
+  border-top-width: 2px;
+  border-bottom-width: 2px;
 }
 
 .wrapper {
@@ -70,6 +82,15 @@ a {
   border: 3px;
   border-style: solid;
   border-color: white;
+  height: 16rem;
+}
+
+.titlebox {
+  background-color: black;
+  color: white;
+  border: 3px;
+  border-style: solid;
+  border-color: white;
 }
 
 .mainbox {
@@ -78,11 +99,22 @@ a {
   border: 3px;
   border-style: solid;
   border-color: white;
-  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  width: 45rem;
+  height: 16rem;
+}
+
+.version {
+  color: rgb(41, 41, 41);
+  display: flex;
+  align-items: end;
+  justify-content: end;
 }
 
 .sideText {
   text-decoration: none;
+  color: #ffffff;
   font-size: 1.5rem;
 }
 
@@ -98,6 +130,7 @@ a {
 .specialsideText {
   text-decoration: none;
   font-size: 1.5rem;
+  cursor: default;
 }
 
 .specialsideText .base {
@@ -113,7 +146,11 @@ a {
 }
 
 .button {
-  width: 100%;
-  height: -moz-fit-content;
-  height: fit-content;
+  width: 5.9rem;
+  height: 2rem;
+}
+
+.button:hover {
+  border-style: dotted;
+  border-color: #ffffff;
 }/*# sourceMappingURL=styles.css.map */
