@@ -71,93 +71,129 @@ body {
     }
 }
 
-.container {
+.titlePanel {
+    height: 7rem;
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-style: solid;
+    border-width: 0.3rem;
+    border-color: #424757;
+    border-radius: 0.5rem;
+    background-color: #31384b;
+    box-shadow: 0 0 #18191d;
+}
+
+.titleText {
+    font-size: 6rem;
+    font-family: 'Bombardier';
+    text-align: center;
+    color: #969697;
+    text-shadow: 3px 0 #635a70;
+    text-decoration: none;
+}
+
+.titleText:hover {
+    color: #e2d8d4;
+    text-shadow: 3px 0 #b6a8b1;
+}
+
+.titlePanel:hover {
+    
+    border-color: #8df6e8;
+    background-color: #516270;
+}
+
+.content {
+    top: 0;
+    left: 0;
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    padding-top: 1rem;
+    line-height: normal;
+    gap: 1rem;
+}
+
+.mainContent {
+    top: 0;
+    left: 0;
+    height: 65rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    gap: 1rem;
+}
+
+.mainPanel {
+    height: auto;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-style: solid;
+    border-width: 0.3rem;
+    border-color: #415465;
+    border-radius: 0.5rem;
+    background-color: rgba(55, 67, 91, 0.8);
+}
+
+.serverPanel {
+    height: auto;
+    width: 58%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-style: solid;
+    border-width: 0.3rem;
+    border-color: #415465;
+    border-radius: 0.5rem;
+    background-color: rgba(55, 67, 91, 0.8);
 }
 
-.leftpanel {
-    height: 55rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+.headerText {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'rzpix';
+    text-align: left;
+    line-height: normal;
+    color: #ffffff;
+    text-decoration: none;
 }
 
-.leftpanel img {
-    width: auto;
-    height: 44rem;
-    image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
-    image-rendering: -moz-crisp-edges;          /* Firefox                        */
-    image-rendering: -o-crisp-edges;            /* Opera                          */
-    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
-    image-rendering: pixelated;                 /* Universal support since 2021   */
-    image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
-    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+.textText {
+    font-size: 2.5rem;
+    font-family: 'rzpix';
+    text-align: left;
+    line-height: normal;
+    color: #ffffff;
+    text-decoration: none;
 }
 
-.lefttitle {
-    top: 10.8rem;
-    left: 6.6rem;
-    position: absolute;
-    font-family: Bombardier;
-    font-size: 3.6rem;
-    line-height: 3.5rem;
-    color: white;
+.serverText {
+    font-size: 2rem;
+    font-family: 'rzpix';
+    text-align: left;
+    color: #ffffff;
+    text-decoration: none;
 }
 
-.lefttext {
-    top: 14.6rem;
-    left: 4.1rem;
-    position: absolute;
-    font-family: rzpix;
-    font-size: 1.47rem;
-    line-height: 2.1rem;
-    color: white;
+.connectText {
+    font-size: 1.5rem;
+    font-family: 'rzpix';
+    text-align: right;
+    color: #ffffff;
+    text-decoration: none;
 }
 
-.rightpanel {
-    height: 55rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-.rightpanel img {
-    width: auto;
-    height: 44rem;
-    image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
-    image-rendering: -moz-crisp-edges;          /* Firefox                        */
-    image-rendering: -o-crisp-edges;            /* Opera                          */
-    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
-    image-rendering: pixelated;                 /* Universal support since 2021   */
-    image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
-    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
-}
-
-.righttitle {
-    top: 12.2rem;
-    left: 12rem;
-    position: absolute;
-    font-family: RiskofRainSquare;
-    font-size: 2.3rem;
-    line-height: 3.5rem;
-    color: white;
-}
-
-.righttext {
-    top: 16rem;
-    left: 12rem;
-    position: absolute;
-    font-family: RiskofRainSquare;
-    font-size: 1.27rem;
-    line-height: 1.7rem;
-    color: white;
-}
-
-.righttext span {
-    font-size: 1.12rem;
-}
