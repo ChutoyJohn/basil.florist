@@ -11,6 +11,8 @@ if (RNG == 0) {
     if (TextRNG == 2) { AboutBefore.innerHTML = "HEARME"}
     AboutAfter.innerHTML = "343vsc"
     SpecialText.setAttribute("href", "../343vsc")
-    AboutBefore.style.textShadow = "0 0 10px red"
-    AboutAfter.style.textShadow = "0 0 10px red"
+    AboutBefore.style.textShadow = "0 0 5px red"
+    AboutAfter.style.textShadow = "0 0 5px red"
+    AboutBefore.style.color = "red"
+    AboutAfter.style.color = "red"
 }
