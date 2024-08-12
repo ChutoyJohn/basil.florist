@@ -10,36 +10,94 @@
   font-family: "CyberpunkWaifus";
   src: url("/fonts/CyberpunkWaifus.ttf");
 }
-.sideContent {
-  height: 80%;
-  width: 12vh;
+body {
+  background-image: url("/img/wall_06.gif");
+  background-size: 15vh;
+}
+
+h6 {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cyberpunk {
+  font-family: CyberpunkWaifus;
+  padding-left: 0.2rem;
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.container {
+  top: 0;
+  left: 0;
+  height: 90vh;
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  margin-left: 1vh;
-  padding: 1vh;
-  z-index: 3;
-  border-style: double;
-  border-width: 0.3vh;
-  border-color: #5a8f5a;
-  background-color: #e3e281;
+  flex-direction: column;
+}
+
+.trustcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.titlecontainer {
+  padding-right: 50rem;
+}
+
+.titlewrapper {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.wrapper {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.box {
+  background-color: black;
+  color: white;
+  border: 3px;
+  border-style: solid;
+  border-color: white;
+}
+
+.mainbox {
+  background-color: black;
+  color: white;
+  border: 3px;
+  border-style: solid;
+  border-color: white;
+  height: 20vh;
 }
 
 .sideText {
-  font-size: 3vh;
-  font-family: "CyberpunkWaifus";
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.heresideText {
+  font-weight: bold;
   text-align: left;
   color: #ffffff;
   text-decoration: none;
+  text-shadow: 0 0 10px #5a8f5a;
+  font-size: 1.5rem;
 }
 
 .specialsideText {
-  font-size: 3vh;
-  font-family: "CyberpunkWaifus";
-  text-align: center;
-  cursor: default;
-  color: #ffffff;
   text-decoration: none;
+  font-size: 1.5rem;
 }
 
 .specialsideText .base {
@@ -54,109 +112,8 @@
   display: inline;
 }
 
-.heresideText {
-  font-size: 3vh;
-  font-family: "CyberpunkWaifus";
-  font-weight: bold;
-  text-align: left;
-  color: #ffffff;
-  text-decoration: none;
-  text-shadow: 0 0 10px #5a8f5a;
-}
-
-body {
-  background-image: url("/img/wall_06.gif");
-  background-size: 15vh;
-}
-
-a {
-  color: #5a8f5a;
-}
-
-.content {
-  top: 0;
-  left: 0;
-  height: 100%;
+.button {
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: baseline;
-  padding-top: 1vh;
-  line-height: normal;
-  gap: 1vh;
-}
-
-.mainContent {
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: baseline;
-  gap: 1vh;
-  padding-top: 1vh;
-  position: fixed;
-}
-
-.mainPanel {
-  height: auto;
-  width: 65%;
-  display: flex;
-  flex-direction: column;
-  padding: 1vh;
-  border-style: solid;
-  border-width: 0.3vh;
-  border-color: #ffffff;
-  background-color: #000000;
-}
-
-.headerText {
-  font-size: 4vh;
-  font-weight: bold;
-  font-family: "CyberpunkWaifus";
-  text-align: left;
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.textText {
-  font-size: 3vh;
-  font-family: "CyberpunkWaifus";
-  text-align: left;
-  line-height: normal;
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.titlePanel {
-  height: auto;
-  width: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 1vh;
-  padding-right: 1vh;
-  border-radius: 0.7vh;
-  border-style: ridge;
-  border-width: 0.3vh;
-  border-color: #5a8f5a;
-  background-color: #e3e281;
-}
-
-.titleText {
-  font-size: 7vh;
-  font-weight: bold;
-  font-family: "OmoriFont";
-  color: #5a8f5a;
-  text-decoration: none;
-}
-
-.titlePanel:hover {
-  border-style: inset;
-}
-
-.titleText:hover {
-  color: #ec7bb4;
+  height: -moz-fit-content;
+  height: fit-content;
 }/*# sourceMappingURL=styles.css.map */
