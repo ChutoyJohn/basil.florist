@@ -55,6 +55,14 @@ body {
   margin-bottom: 0;
 }
 
+.titleText {
+  text-align: center;
+  font-family: CyberpunkWaifus;
+  font-size: 2.2vh;
+  margin-bottom: 0;
+  color: white;
+}
+
 .thoughtText {
   text-align: start;
   font-family: CyberpunkWaifus;
