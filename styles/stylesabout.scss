@@ -1,3 +1,8 @@
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 @font-face {
     font-family: 'CyberpunkWaifus';
     src: url('/fonts/CyberpunkWaifus.ttf');
@@ -8,6 +13,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.content::-webkit-scrollbar {
+    display: none;
 }
 
 .textText {
@@ -22,4 +31,36 @@
     font-family: CyberpunkWaifus;
     font-size: 2vh;
     margin-bottom: 0;
+}
+
+.hrefhiddenText {
+    text-align: center;
+    font-family: CyberpunkWaifus;
+    font-size: 2vh;
+    margin-bottom: 0;
+    text-decoration: none;
+    color: white;
+}
+
+.thoughts {
+    width: 120vh;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.thoughtText {
+    text-align: start;
+    font-family: CyberpunkWaifus;
+    font-size: 2vh;
+    margin-bottom: 0;
+    color: white;
+}
+
+.responseText {
+    text-align: end;
+    font-family: CyberpunkWaifus;
+    font-size: 2vh;
+    margin-bottom: 0;
+    color: white;
 }
