@@ -99,8 +99,8 @@ body {
 }
 
 .lefttitle {
-    top: 10.8rem;
-    left: 6.6rem;
+    top: 8.5rem;
+    left: 5.6rem;
     position: absolute;
     font-family: Bombardier;
     font-size: 3.6rem;
@@ -109,12 +109,22 @@ body {
 }
 
 .lefttext {
-    top: 14.6rem;
-    left: 4.1rem;
+    top: 12rem;
+    left: 3.4rem;
     position: absolute;
     font-family: rzpix;
     font-size: 1.47rem;
-    line-height: 2.1rem;
+    line-height: 1.9rem;
+    color: white;
+}
+
+.thankstext {
+    top: 24rem;
+    left: 3.4rem;
+    position: absolute;
+    font-family: rzpix;
+    font-size: 1.47rem;
+    line-height: 1.9rem;
     color: white;
 }
 
@@ -139,8 +149,8 @@ body {
 }
 
 .righttitle {
-    top: 12.2rem;
-    left: 12rem;
+    top: 9.8rem;
+    left: 8.3rem;
     position: absolute;
     font-family: RiskofRainSquare;
     font-size: 2.3rem;
@@ -149,8 +159,8 @@ body {
 }
 
 .righttext {
-    top: 16rem;
-    left: 12rem;
+    top: 13rem;
+    left: 8.3rem;
     position: absolute;
     font-family: RiskofRainSquare;
     font-size: 1.27rem;
