@@ -1,18 +1,14 @@
 @font-face {
-  font-family: "CyberpunkWaifus";
-  src: url("/fonts/CyberpunkWaifus.ttf");
-}
-@font-face {
   font-family: "rzpix";
-  src: url("/fonts/rzpix.ttf");
+  src: url("/fonts/rzpix-dechungified.woff2");
 }
 @font-face {
   font-family: "Bombardier";
-  src: url("/fonts/Bombardier.ttf");
+  src: url("/fonts/Bombardier.woff2");
 }
 @font-face {
   font-family: "RiskofRainSquare";
-  src: url("/fonts/RiskofRainSquare.ttf");
+  src: url("/fonts/RiskofRainSquare.woff2");
 }
 .sideContent {
   top: 0;
