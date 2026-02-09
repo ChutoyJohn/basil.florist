@@ -11,7 +11,8 @@
   src: url("/fonts/RiskofRainSquare.woff2");
 }
 .sideContent {
-  top: 0;
+  top: -9rem;
+  left: -1.4rem;
   height: 80%;
   width: 8rem;
   display: flex;
@@ -21,7 +22,7 @@
   margin-top: 1rem;
   z-index: 3;
   gap: 0.5rem;
-  position: fixed;
+  position: relative;
 }
 
 .sideBox {
@@ -209,8 +210,8 @@ body {
 }
 
 .righttitle {
-  top: 9.8rem;
-  left: 8.3rem;
+  top: 9.6rem;
+  left: 8.1rem;
   position: absolute;
   font-family: RiskofRainSquare;
   font-size: 2.3rem;

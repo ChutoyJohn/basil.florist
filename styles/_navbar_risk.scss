@@ -1,5 +1,6 @@
 .sideContent {
-    top: 0;
+    top: -9rem;
+    left: -1.4rem;
     height: 80%;
     width: 8rem;
     display: flex;
@@ -9,7 +10,7 @@
     margin-top: 1rem;
     z-index: 3;
     gap: 0.5rem;
-    position: fixed;
+    position:relative;
 }
 
 .sideBox {
